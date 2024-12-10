@@ -1,0 +1,16 @@
+{
+  "name": "webdav-watcher-template",
+  "version": "1.0.0",
+  "description": "A template for deploying files to WebDAV and auto-refreshing the browser.",
+  "main": "scripts/index.js",
+  "scripts": {
+    "watch": "node scripts/index.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.1",
+    "dotenv": "^16.4.7",
+    "open": "^10.1.0",
+    "webdav": "^5.7.1",
+    "ws": "^8.18.0"
+  }
+}
